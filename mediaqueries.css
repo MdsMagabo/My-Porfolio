@@ -222,7 +222,7 @@
         font-size: 40px;
     }
     .share {
-        bottom: 20rem;
+        position:relative;
     }
     .about__content {
         padding: 0;
