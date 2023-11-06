@@ -222,7 +222,7 @@
         font-size: 40px;
     }
     .share {
-        bottom: 24rem;
+        bottom: 7rem;
     }
     .about__content {
         padding: 0;
@@ -231,8 +231,4 @@
         height: 290px;
     }
 }
-@media screen and (max-width: 828px) {
-    .share {
-        bottom: 20px;
-    }
-}
+
