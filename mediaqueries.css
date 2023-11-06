@@ -216,6 +216,10 @@
     .projects__description {
         height: 230px;
     }
+    .share {
+        position:relative;
+        bottom: 10rem;
+    }
 }
 @media screen and (max-width: 375px) {
     .home h1 {
