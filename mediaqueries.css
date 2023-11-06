@@ -231,3 +231,8 @@
         height: 290px;
     }
 }
+@media screen and (max-width: 828px) {
+    .share {
+        bottom: 20px;
+    }
+}
