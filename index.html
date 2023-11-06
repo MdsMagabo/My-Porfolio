@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    
+
+
+</head>
+<body>
+    <header>
+    <!-- header section -->
+    <a href="#" class="logo"><span>dave.</span>dev</a>
+
+    <ul class="navbar">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    </header>
+    <!-- Hamburger Nav_Bar -->
+    <nav id="hamburger-nav">
+        <a href="#" class="logo"><span>dave.</span>dev</a>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+
+    </nav>
+
+
+    <!-- home section -->
+    <section class="home">
+        <div class="home-text">
+            <span>Web Developer</span>
+            <h1>Michael Dave Sam Magabo</h1>
+            <p>As a junior web developer, I am enthusiastic about crafting user-friendly websites and eager to learn and grow in the industry. I bring a strong willingness to innovate, collaborate, and contribute positively to web development projects.</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Michael Magabo - Resume.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                Contact Info
+                </button>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="assets/290996436_1034287000586955_6019941854743001584_n.png">
+        <div class="blob-background">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" id="blobSvg" style="opacity: 1;">                        <defs>                        <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">                            <stop offset="0%" style="stop-color: rgb(255, 174, 0);"></stop>                            <stop offset="100%" style="stop-color: rgb(255, 174, 0);"></stop>                        </linearGradient>                        </defs>                                            <path id="blob" fill="url(#gradient)" style="opacity: 1;"><animate attributeName="d" dur="20s" repeatCount="indefinite" values="M408.24461,332.63257Q415.26513,415.26513,332.63257,434.71568Q250,454.16622,179.33614,422.74697Q108.67228,391.32772,65.87585,320.66386Q23.07942,250,63.27221,176.73251Q103.46501,103.46501,176.73251,63.02288Q250,22.58075,311.86507,74.4253Q373.73015,126.26985,387.47712,188.13493Q401.22409,250,408.24461,332.63257Z;M446.86448,329.36764Q408.73529,408.73529,329.36764,419.76576Q250,430.79624,166.60504,423.79308Q83.21008,416.78992,69.36975,333.39496Q55.52942,250,96.13341,193.3687Q136.7374,136.7374,193.3687,119.10083Q250,101.46426,313.50105,112.23108Q377.00211,122.99789,430.99789,186.49895Q484.99368,250,446.86448,329.36764Z;M405.0078,325.44624Q400.89248,400.89248,325.44624,434.97549Q250,469.0585,165.42535,444.1039Q80.8507,419.1493,84.75627,334.57465Q88.66184,250,94.44262,175.1117Q100.2234,100.2234,175.1117,82.29749Q250,64.37159,306.73538,100.45042Q363.47075,136.52925,386.29693,193.26462Q409.12312,250,405.0078,325.44624Z;M385.47259,309.13613Q368.27225,368.27225,309.13613,425.14983Q250,482.02741,183.02911,432.9846Q116.05821,383.94179,100.85787,316.97089Q85.65753,250,111.11302,193.28426Q136.56852,136.56852,193.28426,70.4846Q250,4.40068,303.89298,73.30736Q357.78596,142.21404,380.22944,196.10702Q402.67293,250,385.47259,309.13613Z;M421.63508,307.39005Q364.7801,364.7801,307.39005,427.43403Q250,490.08796,191.6822,428.36178Q133.3644,366.6356,70.9089,308.3178Q8.4534,250,54.21728,174.99058Q99.98115,99.98115,174.99058,81.49686Q250,63.01257,330.66021,75.84607Q411.32042,88.67958,444.90524,169.33979Q478.49006,250,421.63508,307.39005Z;M408.24461,332.63257Q415.26513,415.26513,332.63257,434.71568Q250,454.16622,179.33614,422.74697Q108.67228,391.32772,65.87585,320.66386Q23.07942,250,63.27221,176.73251Q103.46501,103.46501,176.73251,63.02288Q250,22.58075,311.86507,74.4253Q373.73015,126.26985,387.47712,188.13493Q401.22409,250,408.24461,332.63257Z"></animate></path></svg>
+        </div>
+        </div>
+    </section>
+    <div class="share">
+        <p>Check out my:</p>
+        <div class="social">
+            <a href="#"><i class="fab fa-linkedin icon"></i></a>
+            <a href="#"><i class="fab fa-google icon"></i></a>
+            <a href="#"><i class="fab fa-github icon"></i></a>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="section__container about__container">
+            <div class="about__image">
+                <img src="assets/394834855_3507366762887913_1534242441085638703_n.jpg">
+            </div>
+            <div class="about__content">
+                <h2 class="section__title">About <span>Me</span></h2> 
+                <p class="section_subtitle">Full-Stack Web Developer!</p>
+                <p class="about__details">Before I got into being a web developer, I was a marketing assistant in a visa consultant company, and a part-time delivery rider. I gain interest in entering the IT industry (web development) because my partner is a project manager in an IT company. so I started watching youtube videos and research about web development until i found Kodego. I get the chance to join the 12 weeks intensive training leaderning about HTML, CSS, Javascript, ReactJS, laravel and PHP. As a computer enthusiast since a kid I wanted to pursue a career close to my passion and luckly, Kodego also awarded one of my work as best miniproject 2. </p>
+                <button class="btn btn-color-1">More About</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title__experience">E<span>xperience</span></h1>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Front-End Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <i class="fab fa-html5"></i>
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fab fa-css3-alt"></i>
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fab fa-js"></i>
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fab fa-react"></i>
+                            <div>
+                                <h3>React.JS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        
+                    </div>
+                </div>
+
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Back-End Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <i class="fa fa-database"></i>
+                            <div>
+                                <h3>MySQL</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fab fa-php"></i>
+                            <div>
+                                <h3>PHP</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fab fa-laravel"></i>
+                            <div>
+                                <h3>Laravel</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <p class="section__text__p1">Porfolio</p>
+        <h1 class="title__experience">P<span>rojects</span></h1>
+        <div class="experience-details-container">
+            <div class="project-container">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="assets/proj-2.jpg" alt="Project-1" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Visa Consultant Website</h2>
+                    <p class="projects__description">
+                        A lead generation system for a visa center,
+                        streamlining the process of connecting prospective
+                        travelers with the center's services. This platform
+                        efficiently collects and manages user data, facilitating
+                        the acquisition of potential clients seeking visa
+                        assistance.</p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/MdsMagabo/Mini-Project-1.git'">Github</button>
+                        <button class="btn btn-color-1 project-btn" onclick="location.href='https://mdsmagabo.github.io/Mini-Project-1/'">Live Demo</button>
+                    </div>
+                </div>
+                
+
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="assets/proj-1.jpg" alt="Project-2" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Visa Consultant Website</h2>
+                    <p class="projects__description">
+                        A lead generation system for a visa center,
+                        streamlining the process of connecting prospective
+                        travelers with the center's services. This platform
+                        efficiently collects and manages user data, facilitating
+                        the acquisition of potential clients seeking visa
+                        assistance. </p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/MdsMagabo/MiniProject2.git'">Github</button>
+                        <button class="btn btn-color-1 project-btn" onclick="location.href='https://mdsmagabo.github.io/MiniProject2/'">Live Demo</button>
+                    </div>
+                </div>
+
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="assets/proj-3.jpg" alt="Project-3" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Tire Online Store</h2>
+                    <p class="projects__description">
+                        Welcome to the Tire Online Store, your one-stop destination for high-quality tires to enhance the performance and safety of your vehicle. Our online platform offers a wide range of tire options, expert advice, and convenient shopping experiences, catering to the diverse needs of automotive enthusiasts and everyday drivers.
+ </p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/MdsMagabo/Capstone.git'">Github</button>
+                        <button class="btn btn-color-1 project-btn" onclick="location.href='https://mdsmagabo.github.io/Mini-Project-1/'">Live Demo</button>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="contact-container">
+            <div class="row">
+                <div class="contact-left">
+                    <h2 class="section__title">Contact<span>Me</span></h2> 
+                    <p><i class="far fa-envelope"></i>michaeldavesammagabo@gmail.com</a></p>
+                    <p><i class="fas fa-phone"></i> 0995-305-6474</p>
+                    <div class="social">
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-google"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form onsubmit="sendEmail(); reset(); return false;">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <input type="email" id="email" placeholder="Your E-mail" required>
+                        <textarea id="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn-color-1 project-btn">Submit</button>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

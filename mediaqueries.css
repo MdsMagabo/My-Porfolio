@@ -1,0 +1,233 @@
+@media screen and (max-width: 1850px) {
+    header {
+        padding: 15px 8%;
+        transition: .2s;
+    }
+    section {
+        padding: 0 8%;
+        transition: .2s;
+    }
+    .share {
+        left: 8%;
+        transition: .2s;
+    }
+}
+@media screen and (max-width: 1440px) {
+    header {
+        padding: 15px 8%;
+        transition: .2s;
+    }
+    section {
+        padding: 0 8%;
+        transition: .2s;
+    }
+    .share {
+        left: 8%;
+        transition: .2s;
+    }
+    .home-img {
+        height: 75%;
+    }
+    .home {
+        gap: 1px;
+        height: 85vh;
+    }
+    .home-text h1 {
+        font-size: 53px;
+    }
+    img {
+        width: 200%;
+    }
+    .blob-background {
+        width: 90%;
+        height: 110%;
+    }
+    .share {
+        bottom: 25rem;
+    }
+}
+@media screen and (max-width: 1024px) {
+    header {
+        padding: 15px 4%;
+        transition: .2s;
+    }
+    section {
+        padding: 0 4%;
+        transition: .2s;
+    }
+    .home {
+        height: 90vh;
+    }
+    .share {
+        left: 8%;
+        transition: .2s;
+    }
+    .home-img {
+        height: 70%;
+        width: 140%;
+        padding-right: 80px;
+    }
+    .home-img img {
+        height: 90%;
+        width: 140%;
+    }
+    .blob-background {
+        width: 90%;
+        height: 100%;
+        padding: 0 20px 0 0;
+    }
+    .share {
+        bottom: 45.5rem;
+    }
+    .home {
+        gap: 1px;
+        height: 80%;
+    }
+    .about__content {
+        padding-left: 35px;
+    }
+    section.about {
+        right: 0;
+        width: 100%;
+    }
+    .projects__description{
+        height: 300px;
+    }
+    .project-title {
+        height: 70px;
+    }
+}
+@media screen and (max-width: 768px) {
+    header {
+        background:var(--mob);
+    }
+    .home {
+        position: relative;
+        padding: 0 50px 50px 50px;
+        height: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .share {
+        bottom: 5rem;
+    }
+    .home-img {
+        width: 100%;
+        height: 70%;
+        padding: 0 120px;
+    }
+    img {
+        height: 100px;
+        width: 70%;  
+    }
+    .home-img img {
+        height: 50%;
+        width: 120%;
+    }
+    .blob-background {
+        width: 100%;
+        height: 115%;
+        padding-right: 200px;
+    }
+    .home h1 {
+        font-size: 50px;
+    }
+    .share {
+        bottom: 19.4rem;
+    }
+    .project-container {
+        display: grid;
+    }
+    .about__container {
+        display: flex;
+        flex-direction: column;
+    }
+    .about__image img {
+        display: none;
+    }
+    .about__content {
+        padding: 50px;
+    }
+    .projects__description {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+       display: none;
+       
+    }
+    #hamburger-nav {
+       display: flex;
+       justify-content: space-around;
+       padding-top: 30px;
+    }
+    .menu-links.open {
+        display: flex;
+        width: 150px;
+        height: 100vh;
+        bottom: 0;
+        left: -10px;
+        flex-direction: column;
+        background: transparent;
+        font-size: 25px;
+        align-items: end;
+    }
+    .menu-links.open a{
+        color: white;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .menu-links.open {
+        left: -330px;
+        z-index: 1;
+        background: black;
+        width: 400px;
+    }
+    .home-img {
+        height: 50%;
+        padding: 2px;
+    }
+    .home-img img {
+        width: 115%;
+    }
+    .blob-background {
+        height: 125%;
+        width: 75%;
+        padding: 0;
+    }
+    .social i {
+        font-size: 25px;
+        margin: 3px;
+    }
+    .about__content {
+        padding: 15px;
+    }
+    .about-container {
+        display: grid;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .projects__description {
+        height: 230px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .home h1 {
+        font-size: 40px;
+    }
+    .share {
+        bottom: 24rem;
+    }
+    .about__content {
+        padding: 0;
+    }
+    .projects__description {
+        height: 290px;
+    }
+}
