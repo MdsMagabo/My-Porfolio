@@ -43,7 +43,7 @@
         height: 110%;
     }
     .share {
-        bottom: 25rem;
+        bottom: 15rem;
     }
 }
 @media screen and (max-width: 1024px) {
@@ -77,7 +77,7 @@
         padding: 0 20px 0 0;
     }
     .share {
-        bottom: 45.5rem;
+        bottom: 4rem;
     }
     .home {
         gap: 1px;
@@ -133,7 +133,7 @@
         font-size: 50px;
     }
     .share {
-        bottom: 19.4rem;
+        bottom: 0.3rem;
     }
     .project-container {
         display: grid;
@@ -150,6 +150,9 @@
     }
     .projects__description {
         height: 150px;
+    }
+    .social i {
+        font-size: 25px;
     }
 }
 
@@ -200,11 +203,11 @@
         padding: 0;
     }
     .social i {
-        font-size: 25px;
+        font-size: 20px;
         margin: 3px;
     }
     .about__content {
-        padding: 15px;
+        padding: 11px;
     }
     .about-container {
         display: grid;
@@ -217,17 +220,12 @@
         height: 230px;
     }
     .share {
-        position:relative;
-        bottom: 10rem;
+        bottom: 0.2rem;
     }
 }
 @media screen and (max-width: 375px) {
     .home h1 {
         font-size: 40px;
-    }
-    .share {
-        position:relative;
-        bottom: 10rem;
     }
     .about__content {
         padding: 0;
